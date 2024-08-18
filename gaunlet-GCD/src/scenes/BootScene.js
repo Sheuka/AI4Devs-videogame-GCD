@@ -14,9 +14,12 @@ class BootScene extends Phaser.Scene {
         this.load.audio('shoot', 'assets/audio/shoot.wav');
         this.load.audio('hit', 'assets/audio/hit.wav');
         this.load.audio('explosion', 'assets/audio/explosion.wav');
+        this.load.audio('background', 'assets/audio/background.wav');
+        this.load.audio('key_picked', 'assets/audio/key_picked.wav');
+        this.load.audio('victory', 'assets/audio/victory.wav');
     }
 
     create() {
-        this.scene.start('GameScene');
+        this.scene.start('StartScene');
     }
 }
