@@ -1,4 +1,61 @@
-#Gaunlet - GCD
+# Gauntlet Archer
+
+Gauntlet Archer es un juego de acción en 2D inspirado en el clásico Gauntlet, desarrollado con Phaser 3.
+
+## Descripción del juego
+
+En Gauntlet Archer, controlas a un arquero que debe sobrevivir a oleadas de enemigos, recoger una llave y encontrar la puerta para avanzar al siguiente nivel. El juego continúa indefinidamente, aumentando la dificultad con cada nivel.
+
+## Cómo jugar
+
+1. Usa las teclas de flecha para mover al arquero.
+2. Presiona la barra espaciadora para disparar flechas.
+3. Elimina a los enemigos para ganar puntos.
+4. Recoge la llave y encuentra la puerta para avanzar al siguiente nivel.
+5. Sobrevive el mayor tiempo posible y consigue la puntuación más alta.
+
+## Controles
+
+- Flechas de dirección: Mover al arquero
+- Barra espaciadora: Disparar flechas
+
+## Estructura del código
+
+El juego está estructurado en varias escenas y objetos:
+
+- `StartScene`: Pantalla de inicio del juego.
+- `GameScene`: Escena principal donde se desarrolla el juego.
+- `UIScene`: Maneja la interfaz de usuario (puntuación, tiempo, salud).
+- `NextLevelScene`: Se muestra al completar un nivel.
+- `GameOverScene`: Aparece cuando el jugador pierde.
+
+Objetos principales:
+- `Archer`: El personaje controlado por el jugador.
+- `Enemy`: Los enemigos que persiguen al jugador.
+- `Arrow`: Las flechas disparadas por el arquero.
+- `Key` y `Door`: Objetos para avanzar al siguiente nivel.
+
+## Cómo ejecutar el juego
+
+1. Asegúrate de tener todos los archivos del juego en tu directorio local.
+2. Abre el archivo `index.html` en un navegador web moderno.
+3. El juego debería cargarse y mostrar la pantalla de inicio.
+
+## Desarrollo
+
+El juego está desarrollado utilizando Phaser 3, una potente biblioteca de juegos HTML5. Si deseas modificar o expandir el juego, asegúrate de familiarizarte con la [documentación de Phaser](https://newdocs.phaser.io/docs/3.80.0).
+
+## Créditos
+
+Desarrollado como parte de un proyecto educativo utilizando Phaser 3.
+
+Los sonidos del juego fueron creados utilizando la herramienta de IA [ElevenLabs](https://elevenlabs.io/).
+
+Las imágenes del juego fueron generadas utilizando [ChatGPT](https://chatgpt.com/).
+
+## Prompts utilizados
+
+Los siguientes prompts fueron utilizados durante el desarrollo del juego:
 
 Eres un desarrollador de videojuegos. Tienes que crear un video juego al estilo de Gaunlet. Conoces alguna librería javascript que sirva para crar el juego?
 
