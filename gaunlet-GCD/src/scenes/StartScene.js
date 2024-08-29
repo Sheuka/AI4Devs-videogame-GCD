@@ -14,17 +14,17 @@ class StartScene extends Phaser.Scene {
 
         // Instrucciones
         const instructions = [
-            'Cómo jugar:',
+            'How to play:',
             '',
-            '- Usa las flechas para mover al arquero',
-            '- Presiona ESPACIO para disparar flechas',
-            '- Elimina a los enemigos',
-            '- Recoge la llave y encuentra la puerta',
-            '- Sobrevive el mayor tiempo posible',
+            '- Use the arrow keys to move the archer',
+            '- Press SPACE to shoot arrows',
+            '- Eliminate the enemies',
+            '- Collect the key and find the door',
+            '- Survive as long as possible',
             '',
-            'Objetivo:',
-            'Consigue la mayor puntuación antes de que',
-            'se acabe el tiempo o pierdas toda la vida'
+            'Objective:',
+            'Get the highest score before',
+            'time runs out or you lose all your health'
         ];
 
         const instructionsText = this.add.text(width / 2, height / 3, instructions, {
@@ -41,7 +41,7 @@ class StartScene extends Phaser.Scene {
         instructionsText.setY(height / 2 - instructionsHeight / 2);
 
         // Texto para iniciar el juego
-        this.add.text(width / 2, height - 50, 'Presiona ESPACIO para comenzar', {
+        this.add.text(width / 2, height - 50, 'Press SPACE to start', {
             fontSize: '28px',
             fill: '#fff'
         }).setOrigin(0.5);

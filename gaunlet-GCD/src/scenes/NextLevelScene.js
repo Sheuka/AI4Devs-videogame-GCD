@@ -5,7 +5,7 @@ class NextLevelScene extends Phaser.Scene {
 
     create() {
         this.add.text(400, 300, 'Next Level', { fontSize: '32px', fill: '#fff' }).setOrigin(0.5);
-        this.add.text(400, 350, 'Presiona ESPACIO para continuar', { fontSize: '24px', fill: '#fff' }).setOrigin(0.5);
+        this.add.text(400, 350, 'Press SPACE to continue', { fontSize: '24px', fill: '#fff' }).setOrigin(0.5);
         
         this.time.delayedCall(1000, () => {
             this.input.keyboard.once('keydown-SPACE', () => {

@@ -41,6 +41,21 @@ Objetos principales:
 2. Abre el archivo `index.html` en un navegador web moderno.
 3. El juego debería cargarse y mostrar la pantalla de inicio.
 
+### Usar un servidor local
+
+Si prefieres usar un servidor local, sigue estos pasos:
+
+1. Asegúrate de tener [Node.js](https://nodejs.org/) instalado.
+2. Instala `http-server` globalmente si no lo tienes:
+   ```bash
+   npm install -g http-server
+   ```
+3. Navega al directorio del proyecto y ejecuta:
+   ```bash
+   http-server
+   ```
+4. Abre la URL proporcionada (por ejemplo, `http://localhost:8080`) en tu navegador.
+
 ## Desarrollo
 
 El juego está desarrollado utilizando Phaser 3, una potente biblioteca de juegos HTML5. Si deseas modificar o expandir el juego, asegúrate de familiarizarte con la [documentación de Phaser](https://newdocs.phaser.io/docs/3.80.0).
